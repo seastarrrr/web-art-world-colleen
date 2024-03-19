@@ -51,9 +51,39 @@ body * {
 
 /*Modules*/
 
+
+
 .diptych {
+   
+}
+.diptych diptych-left {
 
 }
+.diptych diptych-right {
+    
+}
+
+.diptych-left, .diptych-right {
+
+    }
+ 
+ /* Adding display flex and flex basis of 50% to get diptych-left
+and diptych-right to sit next to each other. Adding a min-width of 700px to say if 
+display is greater than 700px do this... This allows for screen change size*/    
+@media (min-width: 700px) {
+    .diptych {
+        display: flex;
+    }
+    .diptych-left, .diptych-right {
+        flex-basis: 50%;
+        }
+}
+
+
+
+
+
+
 
 
 
