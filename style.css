@@ -50,7 +50,7 @@ body * {
 
 /*Typography*/
 .loud-voice {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1;
 }
@@ -61,6 +61,14 @@ body * {
 }
 
 /*Components*/
+
+.vimeo-button {
+    background-color: rgb(126, 242, 255);
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
 
 /*Modules*/
 
