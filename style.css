@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 /* Adding display: block to picture and img because inline is default */
-/* Adding width: 100% to image, so the image takes up width in its parent. */
+/* Adding width: 100% to image, so the image takes up width in its parent. 
+Think of these as default so images don't break page */
 picture {
     display: block;
 }
@@ -14,13 +15,11 @@ img {
     height: auto;
 }
 
-header, footer, main {
-    border: 4px solid red;
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
-section {
-    border: 4px solid lime;
-}
 
 /*STRUCTURE*/
 
@@ -41,4 +40,16 @@ main {
  .inner-column{
     border: 4px solid orange;
     padding: 10px;
+}
+
+
+
+
+
+header, footer, main {
+    border: 4px solid red;
+}
+
+section {
+    border: 4px solid lime;
 }
