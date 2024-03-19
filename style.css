@@ -47,11 +47,22 @@ body * {
     border: 2px solid blue;
     padding: 2px;
 }
+
+/*Typography*/
+.loud-voice {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.calm-voice {
+    font-size: 20px;
+    line-height: 1;
+}
+
 /*Components*/
 
 /*Modules*/
-
-
 
 .diptych {
    
@@ -73,6 +84,7 @@ display is greater than 700px do this... This allows for screen change size*/
 @media (min-width: 700px) {
     .diptych {
         display: flex;
+        gap: 20px;
     }
     .diptych-left, .diptych-right {
         flex-basis: 50%;
