@@ -1,3 +1,12 @@
+/*Settings*/
+html {
+    --color:rgb(12, 178, 255);
+    --black: #000000; 
+    --white: #f9f9f9;
+    --dark:blue;
+    --light: rgb(0, 251, 255);
+}
+
 /*SETUP*/
 * {
     box-sizing: border-box;
@@ -48,6 +57,9 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
 /*DevStyles*/ 
 /* the border makes the boxes visible for beginner help */
 body * {
@@ -76,16 +88,18 @@ body * {
     padding: 10px 20px;
     font-size: 20px;
     border-radius: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
 /*Modules*/
 
 .diptych {
+   align-items: center; 
    
 }
 .diptych diptych-left {
-
+   
 }
 .diptych diptych-right {
     
@@ -109,7 +123,9 @@ display is greater than 700px do this... This allows for screen change size*/
 }
 
 
-
+.about {
+    background-color: var(--light) ;
+}
 
 
 
