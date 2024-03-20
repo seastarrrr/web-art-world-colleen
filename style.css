@@ -42,6 +42,11 @@ main {
  .inner-column{
     border: 4px solid orange;
     padding: 10px;
+    /* in order to center the content to the middle of the page */
+    width: 98%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*DevStyles*/ 
 /* the border makes the boxes visible for beginner help */
