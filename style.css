@@ -94,6 +94,11 @@ body * {
 
 /*Modules*/
 
+/*Modules About*/
+
+.about {
+    background-color: var(--light) ;
+}
 .diptych {
    align-items: center; 
    
@@ -123,10 +128,11 @@ display is greater than 700px do this... This allows for screen change size*/
 }
 
 
-.about {
-    background-color: var(--light) ;
-}
+/*Modules Art*/
 
+ul {
+    list-style: none;
+}
 
 
 
