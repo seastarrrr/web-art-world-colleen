@@ -96,7 +96,7 @@ body * {
 
 /*Modules About*/
 
-.about {
+.about-section {
     background-color: var(--light) ;
 }
 .diptych {
@@ -130,14 +130,26 @@ display is greater than 700px do this... This allows for screen change size*/
 
 /*Modules Art*/
 
+.art {
+    display: flex;
+    gap: 10px;
+    
+}
+
 ul {
     list-style: none;
 }
+li {
+   flex-basis: 25%; 
+    }
 
-
-
-
-
+@media (min-width: 700px) {
+    .art {
+    display: flex;
+    flex-direction: row;
+}
+    
+} */
 
 header, footer, main {
     border: 4px solid red;
