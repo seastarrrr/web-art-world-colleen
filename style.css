@@ -4,7 +4,7 @@ html {
     --black: #000000; 
     --white: #f9f9f9;
     --dark:blue;
-    --light: rgb(0, 251, 255);
+    --light: rgb(255, 255, 255);
 }
 
 /*SETUP*/
@@ -93,6 +93,8 @@ body * {
 
 
 /*Modules*/
+
+/*Modules Header*/
 
 /*Modules About*/
 
